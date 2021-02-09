@@ -1,0 +1,52 @@
+#: htdocs/luci-static/resources/view/cpufreq.js:29
+msgid "CPU Governor"
+msgstr "CPU 调速器"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:48
+msgid "CPU Maximum Frequency"
+msgstr "CPU 最高频率"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:43
+msgid "CPU Minimum Frequency"
+msgstr "CPU 最低频率"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:38
+msgid "CPU Sampling rate"
+msgstr "CPU 采样频率"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:33
+msgid "CPU Switching Threshold"
+msgstr "CPU 切换阈值"
+
+#: root/usr/share/rpcd/acl.d/luci-app-cpufreq.json:3
+msgid "Grant UCI access for luci-app-cpufreq"
+msgstr "为 luci-app-cpufreq 授予 UCI 的访问权限"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:24
+#: root/usr/share/luci/menu.d/luci-app-cpufreq.json:3
+msgid "Kernel Manager"
+msgstr "内核管理器"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:24
+msgid "Kernel manager is an application which manages kernel parameters."
+msgstr "内核管理器是一个管理内核参数的应用。"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:38
+msgid "Set the frequency(ms) which governor checks to tune the CPU"
+msgstr "设置 CPU 调速器调整 CPU 的采样频率。"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:48
+msgid "Set the maximum frequency the CPU scales up to."
+msgstr "设置 CPU 可达到的最高频率。"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:43
+msgid "Set the minimum frequency the CPU scales down to."
+msgstr "设置 CPU 可达到的最低频率。"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:33
+msgid "Set the threshold for stepping up to another frequency."
+msgstr "设置 CPU 提升频率的负载阈值。"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:29
+msgid "The CPU governor determines how the CPU behaves in workload."
+msgstr "CPU 调速器决定 CPU 如何响应工作负载的变化。"

@@ -1,0 +1,18 @@
+{
+	"luci-app-cpufreq": {
+	"description": "Grant UCI access for luci-app-cpufreq",
+	"read": {
+		"file": {
+			"/sys/devices/system/cpu/cpufreq/policy0/*": [ "read" ],
+			"/sys/devices/system/cpu/cpufreq/ondemand/*": [ "read" ]
+		},
+		"uci": [ "cpufreq" ]
+		},
+	"write": {
+		"file": {
+			"/etc/init.d/cpufreq *" : [ "exec" ]
+		},
+		"uci": [ "cpufreq" ]
+		}
+	}
+}

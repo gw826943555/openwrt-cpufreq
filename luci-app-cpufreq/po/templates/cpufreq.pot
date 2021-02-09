@@ -1,0 +1,55 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: htdocs/luci-static/resources/view/cpufreq.js:29
+msgid "CPU Governor"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:48
+msgid "CPU Maximum Frequency"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:43
+msgid "CPU Minimum Frequency"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:38
+msgid "CPU Sampling rate"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:33
+msgid "CPU Switching Threshold"
+msgstr ""
+
+#: root/usr/share/rpcd/acl.d/luci-app-cpufreq.json:3
+msgid "Grant UCI access for luci-app-cpufreq"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:24
+#: root/usr/share/luci/menu.d/luci-app-cpufreq.json:3
+msgid "Kernel Manager"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:24
+msgid "Kernel manager is an application which manages kernel parameters."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:38
+msgid "Set the frequency(ms) which governor checks to tune the CPU"
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:48
+msgid "Set the maximum frequency the CPU scales up to."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:43
+msgid "Set the minimum frequency the CPU scales down to."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:33
+msgid "Set the threshold for stepping up to another frequency."
+msgstr ""
+
+#: htdocs/luci-static/resources/view/cpufreq.js:29
+msgid "The CPU governor determines how the CPU behaves in workload."
+msgstr ""
