@@ -35,7 +35,7 @@ return view.extend({
 		o.depends('governor', 'ondemand');
 		o.cfgvalue = function() { return results[3].replace(/[\r\n]/g,""); }
 
-		o = s.option(form.Value, 'factor', _('CPU Sampling rate'), _('Set the frequency(ms) which governor checks to tune the CPU'));
+		o = s.option(form.Value, 'factor', _('CPU Sampling rate'), _('Set the frequency(us) which governor checks to tune the CPU'));
 		o.datatype = 'range(1,100000)';
 		o.depends('governor', 'ondemand');
 		o.cfgvalue = function() { return results[4].replace(/[\r\n]/g,""); }

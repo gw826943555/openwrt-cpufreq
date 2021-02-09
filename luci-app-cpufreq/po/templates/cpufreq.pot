@@ -35,7 +35,7 @@ msgid "Kernel manager is an application which manages kernel parameters."
 msgstr ""
 
 #: htdocs/luci-static/resources/view/cpufreq.js:38
-msgid "Set the frequency(ms) which governor checks to tune the CPU"
+msgid "Set the frequency(us) which governor checks to tune the CPU"
 msgstr ""
 
 #: htdocs/luci-static/resources/view/cpufreq.js:48

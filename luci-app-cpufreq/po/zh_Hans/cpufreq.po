@@ -32,8 +32,8 @@ msgid "Kernel manager is an application which manages kernel parameters."
 msgstr "内核管理器是一个管理内核参数的应用。"
 
 #: htdocs/luci-static/resources/view/cpufreq.js:38
-msgid "Set the frequency(ms) which governor checks to tune the CPU"
-msgstr "设置 CPU 调速器调整 CPU 的采样频率。"
+msgid "Set the frequency(us) which governor checks to tune the CPU"
+msgstr "设置 CPU 调速器调整 CPU 的采样频率（us）。"
 
 #: htdocs/luci-static/resources/view/cpufreq.js:48
 msgid "Set the maximum frequency the CPU scales up to."
