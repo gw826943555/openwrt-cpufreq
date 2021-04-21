@@ -90,8 +90,7 @@ return view.extend({
 					E('th', { 'class': 'th' }, 'idle %'),
 					E('th', { 'class': 'th' }, 'iowait %'),
 					E('th', { 'class': 'th' }, 'irq %'),
-					E('th', { 'class': 'th' }, 'softirq %'),
-					E('th', { 'class': 'th cbi-section-actions' }, '')
+					E('th', { 'class': 'th' }, 'softirq %')
 				])
 			]);
 
